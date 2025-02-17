@@ -1,0 +1,431 @@
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap);
+@font-face {
+    font-family:ITCAvantGardePro ;
+    src: url(itcavantgarde/ITCAvantGardeRg/ITC\ Avant\ Garde\ Gothic\ Book\ Regular.otf);
+}
+@font-face {
+    font-family: EthnocentricRg;
+    src: url(FontsFree-Net-ethnocentric-rg.ttf);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+    background: none;
+}
+body
+{
+    background: url(images/body_back.jpg);
+    font-size: 16px;
+}
+.wrapper
+{
+    max-width: 980px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.nav
+{
+    width: 100%;
+    position: relative;
+    padding: 80px 0 0 0;
+}
+.nav ul
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 30px 0 0 0;
+    text-align: left;
+    width: 30.3%;
+}
+.nav ul li
+{
+    list-style-type: disc;
+    font-size: 3.75em;
+    color: #4c514c;
+    margin: 0 0 20px 0;
+    cursor: pointer;
+    height: 25px;
+    width: 100%;
+    line-height: 25px;
+}
+.nav ul li a
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.56em;
+    color: #4d514c;
+    line-height: 25px;
+    float: left;
+    transition: all .2s linear;
+}
+.nav ul li:hover a 
+{
+    margin-left: -15px;
+    color: #fff;
+}
+.nav ul li:hover
+{
+    color: #ed1c24;
+}
+.header
+{   
+    width: 100%;
+    background: url(images/header.png) no-repeat left top;
+    background-size: cover;
+    text-align: center;
+}
+.header a
+{
+    
+    display: inline-block;
+}
+.header h2
+{
+    font-size: 3.75em;
+    font-family: ITCAvantGardePro;
+    color: #fff;
+    padding: 415px 0 60px 0;
+}
+.row-2
+{
+    width: 100%;
+    margin: 115px 0 20px 0;
+    text-align: center;
+}
+.row-2 h2
+{
+    font-size: 4.18em;
+    font-family: EthnocentricRg;
+    color: #ed1c24;
+}
+.row-2 h2 span
+{
+    color: #000000;
+}
+.row-3
+{
+    width: 100%;
+    background: #ed1c24;
+    display: inline-block;
+    text-align: center;
+}
+.row-3col
+{
+    width: 19.9%;
+    display: inline-block;
+    margin: 0 2%;
+    padding: 60px 0 65px 0;
+}
+.row-3col span
+{
+background-color: #fff;
+border-radius: 100%;
+width:46.31% ;
+height: 95px;
+display: inline-block;
+}
+.row-3col span img
+{
+    margin-top: 22px;
+}
+.row-3col h3
+{
+    font-size: 1.675em;
+    font-family: Bebas Neue;
+    color:#fff ;
+    margin: 20px 0 30px 0;
+    font-weight: normal;
+}
+.row-3col p
+{
+    font-size: 0.875em;
+    font-family:ITCAvantGardePro ;
+    color: #fff;
+    float: left;
+    text-align: justify;
+}
+.tri
+{
+    width: 0;
+    height: 0;
+    border-top: 85px solid #ed1c24;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    margin: auto;
+}
+.multi h2
+{
+    color: #27a9e1;
+}
+.multirow
+{
+    background: #27a9e1;
+}
+.tri2
+{
+    border-top-color: #27a9e1;
+}
+.multirow h3
+{
+    font-size: 2.5em;
+    font-family:Bebas Neue ;
+    color: #fff;
+    font-weight: normal;
+    padding:40px 0 25px 0 ;
+    text-transform: uppercase;
+}
+.multirow p
+{
+    font-size: 1em;
+    font-family: ITCAvantGardePro;
+    color: #fff;
+    font-weight: normal;
+}
+.multirow p:last-child
+{
+    padding-bottom: 50px;
+}
+.row-3-col-1
+{
+    width:29%;
+    display: inline-block;
+    text-align: center;
+    padding: 60px 0;
+    margin: 0 2%;
+}
+.clippath
+{
+    width:100%;
+    height: 285px;
+    background: #000;
+    clip-path:polygon(7.1% 12%,73.6% 0%,100% 54%,56% 98%,0% 73.6%);
+}
+.clippath img
+{
+    margin-top: 40px;
+}
+.row-3-col-1 h2
+{
+    font-size: 2.5em;
+    font-family:Bebas Neue ;
+    color: #fff;
+    font-weight: normal;
+
+}
+.row-3-col-1 p
+{
+    font-family:Bebas Neue ;
+    color: #fff;
+}
+.row3col1 
+{
+    width:31% ;
+    background: #f3f3f3;
+    display: inline-block;
+    text-align:center;
+    margin: 40px 5px;
+}
+.row3col1 h2
+{
+    font-size: 2.1em;
+    font-family:Bebas Neue ;
+    color: #000000;
+    font-weight: normal;
+} 
+.row3col1 h2 span
+{
+    color: #27a9e1;
+}
+.row3col1 p
+{
+    font-size: 0.78em;
+    font-family: ITCAvantGardePro;
+    color: #27a9e1;
+    line-height: 21px;
+    height: 126px;
+    font-weight: normal;
+}
+.row3col1 p a
+{
+    font-size: 0.78em;
+    font-family: ITCAvantGardePro;
+    border-bottom: 1px solid #000;
+    color: #000;  
+}
+.anc
+{
+    display: block;
+    background: #1c98cd;
+    padding: 10px 0;
+}
+.anc a
+{
+    font-size: 1em;
+    font-family:Bebas Neue  ;
+    color: #fff;
+}
+.row3col1 h2
+{
+    font-size: 2.2em;
+    font-family:Bebas Neue ;
+    color: #000;
+    padding-top: 20px;
+   
+}
+.he2
+{
+    font-size: 2.5em;
+    font-family:Bebas Neue ;
+    color: #fff;
+    padding-top: 20px;
+   
+}
+.pra,.para
+{
+    font-size: 1.2em;
+    font-family: ITCAvantGardePro ;
+    color: #fff;
+    font-weight: normal;
+   
+}
+.row-3 p a
+{
+    font-family: ITCAvantGardePro;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+.row-2 p
+{
+    font-size: 1.75em;
+    font-family: ITCAvantGardePro;
+    color: #939292;
+}
+.para
+{
+    margin: 15px 0;
+}
+form
+{   width: 100%;
+    display: inline-block;
+    margin: 45px 0 60px 0 ;
+}
+.input1
+{
+    width: 44.38%;
+    float: left;
+}
+.input1 input
+{
+    width: 96%;
+    height: 50px;
+    padding-left: 10px;
+    border:2px solid #fff;
+    border-radius: 5px;
+    font-size:1.15em ;
+    font-family: ITCAvantGardePro;
+    color: #ff5f65;
+
+}
+.textarea textarea::placeholder,.input1 input::placeholder
+{
+    color: #ff5f65;   
+}
+.input1 label
+{
+    font-size: 1.8em;
+    font-family:Bebas Neue ;
+    color: #fff;
+    float: left;    
+}
+.input2
+{
+    width: 44.38%;
+    float: right;
+}
+.textarea
+{
+    float: left;
+    width:100%;
+    margin: 20px 0;
+}
+.textarea textarea
+{
+    width: 98%;
+    height: 125px;
+    padding: 10px 0 0 15px;
+    border:2px solid #fff;
+    border-radius: 5px;
+    font-size:1.15em ;
+    font-family: ITCAvantGardePro;
+    color: #ff5f65;
+}
+
+.btn
+{
+    float: left;
+    background: #fff;
+    cursor: pointer;
+    color: #ed1c24;
+    font-size:1.8em ;
+    font-family:Bebas Neue;
+    padding:10px 6% ;
+    border-radius: 7px;
+    border-bottom:7px solid #ba0103 ;
+}
+.row-4
+{
+    width: 100%;
+    background: #3f3d3d;
+    display: inline-block;
+    text-align: center;
+    margin-top: 120px;
+}
+.row-4 a{display:block;}
+.row-4 a img
+{   
+    color: #232222;
+    margin: 20px 0;
+}
+.row-4 p
+{
+    font-size: 1.15em;
+    font-family: Open Sans;
+    color: #fff;
+    margin-bottom:60px ;
+}
+.row-4 ul
+{
+    width:19.48%;
+    display: inline-block;
+}
+.row-4 ul li
+{
+    float: left;
+    margin: 0 7%;
+}
+.row-4 ul li a i
+{
+    background: #000;
+    color: #fff;
+    font-size:2em ;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition:linear 0.3s all;
+    padding: 7px;
+}
+.row-4 ul li a {
+display: inline-block;
+}
+.row-4 ul li a:hover i
+{
+    color: #000;
+    background: #fff;
+
+}
